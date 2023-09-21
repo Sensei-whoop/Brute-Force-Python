@@ -1,7 +1,8 @@
 everylist = []
-count = 0
+max = input("enter the maximum possible password length");
+count = 0;
 def Everychar(string, count):
-  if count == 3:
+  if count == max:
     return
   else:
     for i in range(79):
